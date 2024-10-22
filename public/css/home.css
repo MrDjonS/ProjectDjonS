@@ -1,0 +1,38 @@
+body {
+    background-color: #1e1e1e; /* Темный фон */
+    color: white; /* Белый текст */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #6a0dad; /* Фиолетовая рамка */
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-buttons {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: white; /* Белая кнопка */
+    color: #6a0dad; /* Фиолетовый текст кнопки */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование */
+}
+
+.product {
+    border: 1px solid #6a0dad; /* Фиолетовая рамка для товара */
+    padding: 15px;
+    margin: 10px;
+    width: 80%; /* Ширина товара */
+    border-radius: 10px; /* Закругленные углы */
+}
